@@ -22,6 +22,6 @@ public class Salaried extends Employee {
 
     @Override
     public double calculateMonthlyPay() {
-        return super.calculateMonthlyPay();
+        return 50000.00 / 12 + (yearsOfService * .01);
     }
 }

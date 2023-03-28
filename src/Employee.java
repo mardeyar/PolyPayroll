@@ -1,4 +1,4 @@
-public class Employee {
+public abstract class Employee {
 
     // Attributes for all employees
     private String firstName;
@@ -29,6 +29,6 @@ public class Employee {
 
     // Methods for all employees
     public double calculateMonthlyPay() {
-
+        return 0.0;
     }
 }

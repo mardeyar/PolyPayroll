@@ -21,6 +21,6 @@ public class Commissioned extends Employee {
     // Methods for a commissioned employee
     @Override
     public double calculateMonthlyPay() {
-        return super.calculateMonthlyPay();
+        return 2000 + (grossSales * 0.1);
     }
 }

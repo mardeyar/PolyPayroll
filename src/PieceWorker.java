@@ -21,6 +21,6 @@ public class PieceWorker extends Employee {
     // Methods for a pieceworker
     @Override
     public double calculateMonthlyPay() {
-        return super.calculateMonthlyPay();
+        return unitsProduced;
     }
 }

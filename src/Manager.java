@@ -21,6 +21,6 @@ public class Manager extends Employee {
     // Methods for a manager
     @Override
     public double calculateMonthlyPay() {
-        return super.calculateMonthlyPay();
+        return (100000.00 / 12) + monthlyBonusAmount;
     }
 }
